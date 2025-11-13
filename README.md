@@ -5,7 +5,7 @@
 Start Amazon Q Developer CLI (```q chat```) in the top folder and enter the following:
 
 ```
-The project is in folder <path-to-your-project-folder/>. All output file should be placed in the folder <path-to-where-you-want-to-place-the-report/>.
+The project is in folder <path-to-your-project-folder/>. All output files should be placed in the folder <path-to-where-you-want-to-place-the-report/>.
 ```
 
 Use the following prompts to analyse the code:
