@@ -1,1 +1,9 @@
+# file: .gitignore
+
+# Dotenv
 .env
+
+# MacOS
+.DS_Store
+
+# --- end of file --- #
