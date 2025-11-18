@@ -24,5 +24,9 @@ Use the following prompts to generate test code:
 @generate-api-endpoint-test-code
 ```
 
+## Upgrade to Kiro CLI
+
+To use Kiro CLI (```kiro-cli``), the new name for Amazon Q Developer, copy everything in .amazonq folder to .kiro folder.
+
 ***
-*Updated on 13 November 2025*
+*Updated on 18 November 2025*
