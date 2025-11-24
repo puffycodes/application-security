@@ -81,5 +81,29 @@ Ask Kiro to update the original features document.
 Update the features file.
 ```
 
+### Better Looking UI
+
+Create a CSS Stylesheet.
+```
+Add a css stylesheet to make the ui looks better.
+```
+
+Change the placing of certain elements.
+```
+Place the link to the home page at the bottom right corner.
+```
+
+### Other Framework
+
+Change the first line of the features.md to use other framework. For example:
+```
+# Sample Express Server with React Frontend
+```
+
+Alternatively, use the following prompt to Kiro.
+```
+Generate the source code according to the specification in ../express-server/docs/features.md but for flask. place the source code in the folder src/.
+```
+
 ***
-*Updated on 21 November 2025*
+*Updated on 24 November 2025*
