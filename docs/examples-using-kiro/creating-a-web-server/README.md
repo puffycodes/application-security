@@ -33,5 +33,14 @@ Examples of Frameworks:
 1. spring-boot and react
 1. spring-boot
 
+## Steps to Generate Code with Security Measures
+
+Using the following for context in kiro:
+```
+/context add templates/features.md templates/security.md
+```
+
+Generate the code as above.
+
 ***
 *Updated on 18 December 2025*
