@@ -32,6 +32,7 @@ Examples of Frameworks:
 1. flask
 1. spring-boot and react
 1. spring-boot
+1. google web toolkit
 
 ## Steps to Generate Code with Security Measures
 
