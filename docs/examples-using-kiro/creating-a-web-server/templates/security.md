@@ -11,3 +11,4 @@ Code generated should include security measures for the following.
 1. Proper error handling that does not expose sensitive information.
 1. Logging mechanism.
 1. Session management and token handling.
+1. Rate limiting mechanism.
