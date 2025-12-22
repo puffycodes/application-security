@@ -16,3 +16,4 @@
 ## Code
 
 1. Set up the source code folder to run the web server.
+1. Create .gitignore file for the source code folder.
