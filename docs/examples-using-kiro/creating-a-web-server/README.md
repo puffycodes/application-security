@@ -24,7 +24,7 @@ Or Using SpringBoot:
 generate the web server using spring-boot framework. place the source code in the folder web-server/spring-boot/.
 ```
 
-Examples of Frameworks:
+Examples of Languages and Frameworks:
 1. nodejs
 1. nodejs and react
 1. express
