@@ -26,12 +26,13 @@ generate the web server using spring-boot framework. place the source code in th
 
 Examples of Frameworks:
 1. nodejs
-1. express and react
+1. nodejs and react
 1. express
-1. flask and react
+1. express and react
 1. flask
-1. spring-boot and react
+1. flask and react
 1. spring-boot
+1. spring-boot and react
 1. google web toolkit
 1. C++
 1. C++ and Drogon
