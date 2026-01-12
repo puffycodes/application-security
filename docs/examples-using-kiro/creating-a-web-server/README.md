@@ -33,6 +33,9 @@ Examples of Frameworks:
 1. spring-boot and react
 1. spring-boot
 1. google web toolkit
+1. C++
+1. C++ and Drogon
+1. Go
 
 ## Steps to Generate Code with Security Measures
 
