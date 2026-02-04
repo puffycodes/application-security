@@ -2,9 +2,9 @@
 
 ## Requirement
 - Audit the code for the following sensitive information
-    - accidentally committed secrets
+    - accidentally committed secrets and credentials
     - hardcoded paths
-    - any user-specific references
+    - user-specific references
 
 ## Report
 - Include the file name and line number where the sensitive information are found
