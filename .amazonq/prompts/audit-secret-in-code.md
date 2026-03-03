@@ -8,6 +8,7 @@
 
 ## Report
 - Include the file name and line number where the sensitive information are found
+- Mask out any sensitive information in the report
 - Generate the report sensitive-information-audit in the output folder
 
 ## Exclusion
