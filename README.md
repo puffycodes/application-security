@@ -1,5 +1,27 @@
 # Usage
 
+## Using Skills in Kiro CLI
+
+Start Kiro CLI
+```
+kiro-cli
+```
+
+Give the following instruction:
+```
+do an api endpoint analysis for <insert your project folder here> and save the report in the folder <insert your output folder here>. 
+```
+
+***
+***
+
+## Obsolete Notice
+
+All the prompts will gradually be transformed to skills. The remaining part of this document will be obsolete when the transformation is completed.
+
+***
+***
+
 ## Simple Usage (for now)
 
 Start Amazon Q Developer CLI (```q chat```) in the top folder and enter the following:
@@ -29,4 +51,4 @@ Use the following prompts to generate test code:
 To use Kiro CLI (```kiro-cli``), the new name for Amazon Q Developer, copy everything in .amazonq folder to .kiro folder.
 
 ***
-*Updated on 18 November 2025*
+*Updated on 14 April 2026*
