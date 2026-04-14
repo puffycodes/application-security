@@ -7,9 +7,14 @@ Start Kiro CLI
 kiro-cli
 ```
 
-Give the following instruction:
+Do an API Endpoint Analysis:
 ```
-do an api endpoint analysis for <insert your project folder here> and save the report in the folder <insert your output folder here>. 
+do an api endpoint analysis for <insert your project folder here> and save the report in the folder <insert your output folder here>.
+```
+
+Do a Sensitive Information Audit:
+```
+do a sensitive information audit for the project <insert your project folder here> and save the report in the folder <insert your output folder here>.
 ```
 
 ***
