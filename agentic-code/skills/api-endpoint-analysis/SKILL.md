@@ -1,6 +1,6 @@
 ---
 name: api-endpoint-analysis
-description: Analyse all the API endpoints in the project. Use when user ask "Do an API endpoints analysis", "Analyse the API endpoints"
+description: Analyse all the API endpoints in the project. Use when user say "Do an API endpoints analysis", or "Analyse the API endpoints".
 ---
 
 # API Endpoint Analysis
