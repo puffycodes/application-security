@@ -2,6 +2,8 @@
 
 ## Using Skills in Kiro CLI
 
+Copy the folder ```agentic-code/skills/``` to ```.kiro/skills/``` (local to project) or ```~/.kito/skills``` (global).
+
 Start Kiro CLI
 ```
 kiro-cli
