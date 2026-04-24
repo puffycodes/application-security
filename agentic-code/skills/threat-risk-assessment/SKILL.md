@@ -24,8 +24,8 @@ metadata:
     - Likelihood, from 1 to 5 where 1 means very small probablity, and 5 is very high probability
     - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact
     - Risk Rating, by looking up in the Risk Rating Lookup Table
-- Determine the Overall Risk by taking the highest Risk Rating from all of the individual risk.
-    - The Overall Risk ratings are, from the lowest to highest - Very Low, Low, Medium, Medium Hight, High, Very High
+- Determine the Overall Risk Rating by taking the highest Risk Rating from all of the individual risk.
+    - The Risk Rating are, from the lowest to highest - Very Low, Low, Medium, Medium Hight, High, Very High
 
 ### After Application of Mitigations
 
@@ -78,7 +78,7 @@ Do a threat risk assessment for leaving a stack of cash on a bench in a park.
     - Impact
     - Risk Rating
 
-- Output the Overall Risk for the table
+- Output the Overall Risk Rating for the table
 
 ### Example Output for Each Scoring
 
@@ -91,5 +91,5 @@ Do a threat risk assessment for leaving a stack of cash on a bench in a park.
     | Risk #2 | Mitigation for Risk #2 | Likelihood Score for Risk #2 | Impact Score for Risk #2 | Risk Rating for Risk #2 |
     ...
 
-    Overall Risk: Overall Risk calculated from all the individual Risk Ratings
+    Overall Risk Rating: Overall Risk Rating calculated from all the individual Risk Ratings
     ```
