@@ -43,7 +43,7 @@ metadata:
 
 ## Summary
 
-- Provide a summary of the Threat Risk Assessment
+- Provide a summary of the Threat Risk Assessment.
 
 # Usage
 
