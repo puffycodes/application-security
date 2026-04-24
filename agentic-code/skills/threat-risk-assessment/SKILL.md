@@ -23,15 +23,15 @@ metadata:
 - For each of the risk, score the following before the recommended mitigations have been applied.
     - Likelihood, from 1 to 5 where 1 means very small probablity, and 5 is very high probability
     - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact
-    - Final Risk, by looking up in the Final Risk Lookup Table
-- Determine the Overall Risk by taking the highest Final Risk from all of the individual risk.
+    - Risk Rating, by looking up in the Risk Rating Lookup Table
+- Determine the Overall Risk by taking the highest Risk Rating from all of the individual risk.
     - The Overall Risk ratings are, from the lowest to highest - Very Low, Low, Medium, Medium Hight, High, Very High
 
 ### After Application of Mitigations
 
 - Do an exact same scoring for the scenario after the recommended mitigations have been applied.
 
-### Final Risk Lookup Table
+### Risk Rating Lookup Table
 
 |   | Impact | 1 | 2 | 3 | 4 | 5 |
 | - | ------ | - | - | - | - | - |
@@ -76,7 +76,7 @@ Do a threat risk assessment for leaving a stack of cash on a bench in a park.
     - Mitigation
     - Likelihood
     - Impact
-    - Final Risk
+    - Risk Rating
 
 - Output the Overall Risk for the table
 
@@ -85,11 +85,11 @@ Do a threat risk assessment for leaving a stack of cash on a bench in a park.
 - Example of threat risk assessment output.
 
     ```
-    | Risk | Mitigation | Likelihood | Impact | Final Risk |
-    | ---- | ---------- | ---------- | ------ | ---------- |
-    | Risk #1 | Mitigation for Risk #1 | Likelihood Score for Risk #1 | Impact Score for Risk #1 | Final Risk for Risk #1 |
-    | Risk #2 | Mitigation for Risk #2 | Likelihood Score for Risk #2 | Impact Score for Risk #2 | Final Risk for Risk #2 |
+    | Risk | Mitigation | Likelihood | Impact | Risk Rating |
+    | ---- | ---------- | ---------- | ------ | ----------- |
+    | Risk #1 | Mitigation for Risk #1 | Likelihood Score for Risk #1 | Impact Score for Risk #1 | Risk Rating for Risk #1 |
+    | Risk #2 | Mitigation for Risk #2 | Likelihood Score for Risk #2 | Impact Score for Risk #2 | Risk Rating for Risk #2 |
     ...
 
-    Overall Risk: Overall Risk calculated from all the individual Final Risks
+    Overall Risk: Overall Risk calculated from all the individual Risk Ratings
     ```
