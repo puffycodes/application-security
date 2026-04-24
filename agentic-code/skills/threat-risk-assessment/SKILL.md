@@ -2,7 +2,7 @@
 name: threat-risk-assessment
 description: Do a threat risk assessment for a scenario, a system, or a set up. Use when user say "Do a threat risk assessment", "assess the risk of the scenario", or "what is the risk of the following scenario".
 metadata:
-    - version: 0.1.1
+    - version: 0.2.0
 ---
 
 # Threat Risk Assessment
@@ -11,38 +11,85 @@ metadata:
 
 - Analyse the scenario, system or set up
 
-## Risk and Mitigation
+## Risks and Mitigations
 
 - Enumerate the risk associate with the screnario, system or set up.
 - Recommend mitigations for each of the risk.
 
-## Scoring of risk
+## Scoring of Risks
 
-- For each of the risk, score the following before the recommended mitigations has been applied.
+### Before Application of Mitigations
+
+- For each of the risk, score the following before the recommended mitigations have been applied.
     - Likelihood, from 1 to 5 where 1 means very small probablity, and 5 is very high probability
     - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact
-- Do an exact same scoring for the scenario after the recommended mitigations has been applied.
+    - Final Risk, by looking up in the Final Risk Lookup Table
+- Determine the Overall Risk by taking the highest Final Risk from all of the individual risk.
+    - The Overall Risk ratings are, from the lowest to highest - Very Low, Low, Medium, Medium Hight, High, Very High
+
+### After Application of Mitigations
+
+- Do an exact same scoring for the scenario after the recommended mitigations have been applied.
+
+### Final Risk Lookup Table
+
+|   | Impact | 1 | 2 | 3 | 4 | 5 |
+| - | ------ | - | - | - | - | - |
+| Likelihood | 5 | Medium | Medium High | High | High | Very High |
+| | 4 | Medium Log | Medium | Medium High | High | High |
+| | 3 | Low | Medium Low | Medium | Medium High | High |
+| | 2 | Low | Low | Medium Low | Medium | Medium High |
+| | 1 | Very Low | Low | Low | Medium Low | Medium |
+
+## Summary
+
+- Provide a summary of the Threat Risk Assessment
+
+# Usage
 
 ## Usage Example
 
+Example 1:
 ```
 I want to connect a web server to the Internet. Do a threat risk assessment for this scenario.
 ```
 
-## Output
+Example 2:
+```
+Do a threat risk assessment for leaving a stack of cash on a bench in a park.
+```
 
-- Output the threat risk assessment in a table with the columns
+# Output
+
+## Output Example
+
+### Output for Risks and Mitigations
+
+- Output all the risks in a table with the following columns:
+    - Risk
+    - Mitigation
+
+### Output for Each Scoring
+
+- Output the threat risk assessment scores for all the risks in a table with the following columns:
     - Risk
     - Mitigation
     - Likelihood
     - Impact
+    - Final Risk
+
+- Output the Overall Risk for the table
+
+### Example Output for Each Scoring
 
 - Example of threat risk assessment output.
 
     ```
-    | Risk | Mitigation | Likelihood | Impact |
-    | ---- | ---------- | ---------- | ------ |
-    | Risk #1 | Mitigation for Risk #1 | Likelihood Score for Risk #1 | Impact Score for Risk #1 |
-    | Risk #2 | Mitigation for Risk #2 | Likelihood Score for Risk #2 | Impact Score for Risk #2 |
+    | Risk | Mitigation | Likelihood | Impact | Final Risk |
+    | ---- | ---------- | ---------- | ------ | ---------- |
+    | Risk #1 | Mitigation for Risk #1 | Likelihood Score for Risk #1 | Impact Score for Risk #1 | Final Risk for Risk #1 |
+    | Risk #2 | Mitigation for Risk #2 | Likelihood Score for Risk #2 | Impact Score for Risk #2 | Final Risk for Risk #2 |
     ...
+
+    Overall Risk: Overall Risk calculated from all the individual Final Risks
     ```
