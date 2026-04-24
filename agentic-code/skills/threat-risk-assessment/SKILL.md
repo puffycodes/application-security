@@ -2,7 +2,7 @@
 name: threat-risk-assessment
 description: Do a threat risk assessment for a scenario, a system, or a set up. Use when user say "Do a threat risk assessment", "assess the risk of the scenario", or "what is the risk of the following scenario".
 metadata:
-    - version: 0.1.0
+    - version: 0.1.1
 ---
 
 # Threat Risk Assessment
@@ -18,9 +18,10 @@ metadata:
 
 ## Scoring of risk
 
-- For each of the risk, score the following after the recommended mitigations has been applied
+- For each of the risk, score the following before the recommended mitigations has been applied.
     - Likelihood, from 1 to 5 where 1 means very small probablity, and 5 is very high probability
-    - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact.
+    - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact
+- Do an exact same scoring for the scenario after the recommended mitigations has been applied.
 
 ## Usage Example
 
