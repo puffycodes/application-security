@@ -33,13 +33,13 @@ metadata:
 
 ### Risk Rating Lookup Table
 
-|   | Impact | 1 | 2 | 3 | 4 | 5 |
-| - | ------ | - | - | - | - | - |
-| Likelihood | 5 | Medium | Medium High | High | High | Very High |
-| | 4 | Medium Log | Medium | Medium High | High | High |
-| | 3 | Low | Medium Low | Medium | Medium High | High |
-| | 2 | Low | Low | Medium Low | Medium | Medium High |
-| | 1 | Very Low | Low | Low | Medium Low | Medium |
+|            | Impact |          1 |           2 |           3 |           4 |           5 |
+| ---------- | ------ | ---------- | ----------- | ----------- | ----------- | ----------- |
+| Likelihood |      5 |     Medium | Medium High |        High |        High |   Very High |
+|            |      4 | Medium Low |      Medium | Medium High |        High |        High |
+|            |      3 |        Low |  Medium Low |      Medium | Medium High |        High |
+|            |      2 |        Low |         Low |  Medium Low |      Medium | Medium High |
+|            |      1 |   Very Low |         Low |         Low |  Medium Low |      Medium |
 
 ## Summary
 
