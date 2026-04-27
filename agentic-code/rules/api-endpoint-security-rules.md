@@ -9,4 +9,4 @@ Analyse the API endpoints in details.
 1. API endpoint must implement rate limiting.
 1. API endpoint must implement API security measures such as CORS
 
-Find all the API endpoints that does not implement the above.
+Find all the API endpoints that does not implement the above security measures.
