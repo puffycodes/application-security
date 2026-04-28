@@ -9,7 +9,7 @@ def markdown_to_pdf(markdown_files, pdf_file, verbose=False):
     count = 1
     for file in markdown_files:
         if verbose:
-            print(f'file #{count}: {file}', file=sys.stderr)
+            print(f'input file #{count}: {file}', file=sys.stderr)
         with open(file, 'r') as fd:
             text = fd.read()
             pdf.add_section(Section(text))
@@ -21,7 +21,7 @@ def markdown_to_pdf(markdown_files, pdf_file, verbose=False):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert Markdown to PDF'
+        description='Convert Markdown Files to PDF File'
     )
     parser.add_argument('file', nargs='+')
     parser.add_argument('-o', '--output_file', required=True)
