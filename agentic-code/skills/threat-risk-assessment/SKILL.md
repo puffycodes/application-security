@@ -25,7 +25,7 @@ metadata:
     - Impact, from 1 to 5 where 1 means very little impact, and 5 means very large impact
     - Risk Rating, by looking up in the Risk Rating Lookup Table
 - Determine the Overall Risk Rating by taking the highest Risk Rating from all of the individual risk.
-    - The Risk Rating are, from the lowest to highest - Very Low, Low, Medium, Medium Hight, High, Very High
+    - The Risk Rating are, from the lowest to highest - Very Low, Low, Medium, Medium High, High, Very High
 
 ### After Application of Mitigations
 
