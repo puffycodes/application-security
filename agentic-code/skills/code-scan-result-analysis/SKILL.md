@@ -7,7 +7,7 @@ description: Analyse the code scan results and write a report. Use when user say
 
 - By default, all the code scan results in the project and all its subfolders will be analysed. The user can specify the scope of the analysis, for example, "Analyse the code scan results in the src folder only", or "Analyse the code scan results in the tests folder only".
 - By default, only the findings from code scan results with severity of medium and above will be analysed. The user can specify the severity level to analyse, for example, "Analyse the code scan results with severity of low and above", or "Analyse the code scan results with severity of high only".
-- By default, do not generate the **Complete Code Scan Result Listing** in the report. The user can specify to generate the complete listing, for example, "Analyse the code scan results and generate the complete listing in the report", or "Analyse the code scan results and generate the complete listing in a separate file only".
+- By default, do not generate both the markdown format and the CSV format of the **Complete Code Scan Result Listing** in the report. The user can specify to generate the complete listing, for example, "Analyse the code scan results and generate the complete listing in the report", or "Analyse the code scan results and generate the complete listing in a separate file only".
 
 # Code Scan Result Analysis
 
