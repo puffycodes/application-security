@@ -10,7 +10,7 @@ def markdown_to_pdf(markdown_files, pdf_file, verbose=False):
     for file in markdown_files:
         if verbose:
             print(f'input file #{count}: {file}', file=sys.stderr)
-        with open(file, 'r', encoding='utf-8') as fd:
+        with open(file, 'r', encoding='utf-8', errors='replace') as fd:
             text = fd.read()
             pdf.add_section(Section(text))
         count += 1
